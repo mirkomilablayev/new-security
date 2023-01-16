@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/telegram
+    password: root123
+    username: postgres
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
